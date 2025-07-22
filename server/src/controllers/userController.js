@@ -16,7 +16,11 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
     try {
+<<<<<<< HEAD
         console.log("credentials: ", req.body);
+=======
+        // console.log("credentials: ", req.body);
+>>>>>>> 44fda61e (vernost client hotel project)
 
         const result = await userService.login(req.body);
         res.status(200).json({

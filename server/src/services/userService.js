@@ -26,7 +26,11 @@ exports.login = async ({ email, password }) => {
 
     const user = existingUser[0];
     // const existingUser.password
+<<<<<<< HEAD
     console.log(`user password form db:${user.password}`)
+=======
+    // console.log(`user password form db:${user.password}`)
+>>>>>>> 44fda61e (vernost client hotel project)
     const isMatch = await bcrypt.compare(password.toString(), user.password);
 
     if (!isMatch) {
