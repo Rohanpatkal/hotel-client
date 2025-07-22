@@ -1,0 +1,2393 @@
+/* [project]/styles/srp.module.css [app-client] (css) */
+.srp-module__NFOD0W__container {
+  background-color: #fff;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.srp-module__NFOD0W__hotel-container-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__logo img {
+  height: 32px;
+}
+
+.srp-module__NFOD0W__user-dropdoun select {
+  color: #64748b;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__user-dropdoun select:hover {
+  background-color: #f1f5f9;
+}
+
+.srp-module__NFOD0W__advance-search {
+  background: #b3c2d1;
+  padding: 24px;
+}
+
+.srp-module__NFOD0W__advance-search-wrapper {
+  border-radius: 12px;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__advance-search-option {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  flex: 25%;
+  align-items: center;
+  min-width: 200px;
+  padding: 16px 20px;
+  display: flex;
+  position: relative;
+}
+
+.srp-module__NFOD0W__advance-search-option:last-of-type {
+  border-right: none;
+}
+
+.srp-module__NFOD0W__advance-search-option img {
+  opacity: .6;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.srp-module__NFOD0W__advance-search-option input {
+  color: #1e293b;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__advance-search-option input::placeholder {
+  color: #64748b;
+}
+
+.srp-module__NFOD0W__search-btn {
+  padding: 4px;
+}
+
+.srp-module__NFOD0W__search-btn button {
+  cursor: pointer;
+  background: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  transition: background-color .2s;
+}
+
+.srp-module__NFOD0W__search-btn button:hover {
+  background: #2563eb;
+}
+
+.srp-module__NFOD0W__search-btn button img {
+  width: 20px;
+  height: 20px;
+}
+
+.srp-module__NFOD0W__search-property-container {
+  background-color: #f8fafc;
+  gap: 24px;
+  padding: 14px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-property-window {
+  flex-shrink: 0;
+  width: 280px;
+}
+
+.srp-module__NFOD0W__search-property-window-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px #0000001a;
+}
+
+.srp-module__NFOD0W__search-input-property-name label {
+  color: #374151;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+.srp-module__NFOD0W__input-fild {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 12px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__input-fild img {
+  opacity: .5;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.srp-module__NFOD0W__input-fild input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__hr {
+  background-color: #e5e7eb;
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.srp-module__NFOD0W__filter-by {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__filter-by h3 {
+  color: #111827;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__filter-by button {
+  color: #036;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #036;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.srp-module__NFOD0W__filter-by button:hover {
+  background-color: #f9fafb;
+}
+
+.srp-module__NFOD0W__form-input-populer-filters h3 {
+  color: #374151;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__form-input-populer-filters label {
+  color: #4b5563;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__form-input-populer-filters input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.srp-module__NFOD0W__search--price-pernight h3 {
+  color: #374151;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__search--price-wrapper {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search--price-wrapper-inner {
+  gap: 8px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-price--input {
+  flex-direction: column;
+  gap: 4px;
+  width: 110px;
+  height: 44px;
+  display: flex;
+  position: relative;
+}
+
+.srp-module__NFOD0W__search-price--input span {
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  transform: translate(18px, 5px);
+}
+
+.srp-module__NFOD0W__search-price--input input {
+  border: 1px solid #d1d5db;
+  border-radius: 2px;
+  width: 110px;
+  height: 44px;
+  padding: 25px 12px 8px 13px;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__search-price--range {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-price-upto {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-price--range span {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.srp-module__NFOD0W__search-price--range input[type="range"] {
+  flex: 1;
+  width: 100%;
+}
+
+.srp-module__NFOD0W__search-guest-rating h3 {
+  color: #374151;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__search-guest-rating--wrapper .srp-module__NFOD0W__row {
+  color: #54627b;
+  gap: 8px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-guest-rating--wrapper span {
+  color: #64748b;
+  cursor: pointer;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  transition: all .2s;
+}
+
+.srp-module__NFOD0W__search-guest-rating--wrapper span:hover {
+  background: #e2e8f0;
+}
+
+.srp-module__NFOD0W__search-star--container {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-star--container span {
+  color: #64748b;
+  cursor: pointer;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  width: 50px;
+  height: 27px;
+  padding: 4px 7px;
+  font-size: 12px;
+  transition: all .2s;
+}
+
+.srp-module__NFOD0W__search-star--container span.srp-module__NFOD0W__active {
+  color: #fff;
+  background: #0560fb;
+  border-color: #0560fb;
+}
+
+.srp-module__NFOD0W__search-star--container span:hover {
+  background: #e2e8f0;
+}
+
+.srp-module__NFOD0W__search-property-result {
+  flex: 1;
+}
+
+.srp-module__NFOD0W__search-property-result--filter {
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-property-result--filter p {
+  color: #111827;
+  width: 100%;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.srp-module__NFOD0W__search-property-result--filter p span {
+  font-weight: 700;
+}
+
+.srp-module__NFOD0W__search-property-result--filter-wrapper {
+  width: 100%;
+}
+
+.srp-module__NFOD0W__search-property-result--filter-wrapper ul {
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-property-result--filter-wrapper a {
+  padding: 8px 0;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all .2s;
+  color: #54627b !important;
+}
+
+.srp-module__NFOD0W__search-property-result--filter-wrapper a span {
+  font-weight: 700;
+}
+
+.srp-module__NFOD0W__search-property-result--filter-wrapper .srp-module__NFOD0W__active-anker {
+  border-bottom: 2px solid #0000;
+  font-weight: 700;
+  color: #036 !important;
+  border-color: #036 !important;
+}
+
+.srp-module__NFOD0W__search-property-result--filter-wrapper a:hover, .srp-module__NFOD0W__search-property-result--filter-wrapper a:first-child {
+  color: #3b82f6;
+  border-bottom-color: #3b82f6;
+}
+
+.srp-module__NFOD0W__search-property-result-hotels {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-property-result-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  transition: box-shadow .2s;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 1px 3px #0000001a;
+}
+
+.srp-module__NFOD0W__search-property-result-card:hover {
+  box-shadow: 0 4px 6px -1px #0000001a;
+}
+
+.srp-module__NFOD0W__search-property-result-card--banner {
+  flex-shrink: 0;
+  width: 213px;
+  height: 230px;
+  position: relative;
+}
+
+.srp-module__NFOD0W__search-property-result-card--banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.srp-module__NFOD0W__hotel-rating {
+  color: #fff;
+  background: #64646466;
+  border-radius: 6px;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.srp-module__NFOD0W__hotel-rating span {
+  background-color: #43a047;
+  border-radius: 4px;
+  margin-top: -4px;
+  margin-bottom: -4px;
+  margin-left: -7px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.srp-module__NFOD0W__hotel-rating label {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.srp-module__NFOD0W__search-property-result-card--banner > span {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 6px;
+  transition: background-color .2s;
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+}
+
+.srp-module__NFOD0W__search-property-result-card--banner > span:hover {
+  background: #fff;
+}
+
+.srp-module__NFOD0W__search-property-result-card--content {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-card--title {
+  color: #111827;
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.srp-module__NFOD0W__content-wrapper span {
+  align-items: center;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__content-wrapper span img {
+  opacity: .6;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.srp-module__NFOD0W__hotel-card--description {
+  color: #6b7280;
+  margin: 0;
+  font-size: 13px;
+}
+
+.srp-module__NFOD0W__hotel-card--rating {
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-card--rating img {
+  width: 14px;
+  height: 14px;
+}
+
+.srp-module__NFOD0W__hotel-card--features-one {
+  color: #6b7280;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-card--features-one .srp-module__NFOD0W__icon {
+  align-items: center;
+  gap: 4px;
+  line-height: 10px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-card--features-one .srp-module__NFOD0W__icon img {
+  width: 14px;
+  height: 14px;
+}
+
+.srp-module__NFOD0W__hotel-card--features-one .srp-module__NFOD0W__icon p {
+  margin: 0;
+}
+
+.srp-module__NFOD0W__hotel-card__amenities-more {
+  color: #3b82f6;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.srp-module__NFOD0W__hotel-card__amenities-more:hover {
+  text-decoration: underline;
+}
+
+.srp-module__NFOD0W__hotel-card--features-two {
+  margin-bottom: 12px;
+}
+
+.srp-module__NFOD0W__hotel-card--features-two > span, .srp-module__NFOD0W__hotel-card--features-two > div {
+  color: #16a34a;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 13px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-card--features-two img {
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+}
+
+.srp-module__NFOD0W__hotel-card--features-two h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.srp-module__NFOD0W__hotel-card--features-three {
+  color: #6b7280;
+  gap: 16px;
+  font-size: 13px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-feature {
+  color: #4e4e4e;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  line-height: 5px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__hotel-feature img {
+  width: 14px;
+  height: 14px;
+}
+
+.srp-module__NFOD0W__search-property-result-card--price {
+  border-left: 1px solid #e5e7eb;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-property-price-wrapper {
+  text-align: center;
+}
+
+.srp-module__NFOD0W__row {
+  display: flex;
+}
+
+.srp-module__NFOD0W__col {
+  flex-direction: column;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-property-price--top {
+  margin-bottom: 16px;
+}
+
+.srp-module__NFOD0W__search-property-price--top p:first-child {
+  color: #16a34a;
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.srp-module__NFOD0W__search-property-price--top span:first-of-type {
+  color: #9ca3af;
+  margin-right: 6px;
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.srp-module__NFOD0W__search-property-price--top span:last-of-type {
+  color: #111827;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.srp-module__NFOD0W__search-property-price--top p:last-child {
+  color: #6b7280;
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.srp-module__NFOD0W__search-property-price-bottum h3 {
+  color: #16a34a;
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__search-property-price-bottum button {
+  color: #013366;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #013366;
+  border-radius: 6px;
+  width: 76px;
+  height: 32px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color .2s;
+}
+
+.srp-module__NFOD0W__search-property-price-bottum button:hover {
+  background: #2563eb;
+}
+
+.srp-module__NFOD0W__footer {
+  color: #9ca3af;
+  text-align: center;
+  background: #1f2937;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px 10px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__advance-search-option {
+  flex: 25%;
+  min-width: 200px;
+  position: relative;
+}
+
+.srp-module__NFOD0W__room-guest-wrapper {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  transition: border-color .2s ease-in-out;
+  display: flex;
+}
+
+.srp-module__NFOD0W__room-guest-wrapper:hover {
+  border-color: #0070f3;
+}
+
+.srp-module__NFOD0W__room-guest-wrapper input {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__room-guest-wrapper input:focus {
+  outline: none;
+}
+
+.srp-module__NFOD0W__search-btn {
+  align-items: center;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-btn button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  transition: background-color .2s ease-in-out;
+  display: flex;
+}
+
+.srp-module__NFOD0W__search-btn button:hover {
+  background-color: #005bb5;
+}
+
+.srp-module__NFOD0W__explore-option {
+  z-index: 2;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  width: 330px;
+  height: 48px;
+  padding: 11px 12px;
+  display: flex;
+  position: relative;
+}
+
+.srp-module__NFOD0W__explore-rooms-guests {
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  width: 330px;
+  height: 48px;
+  padding: 11px 12px;
+  display: flex;
+  position: relative;
+}
+
+.srp-module__NFOD0W__room-guest-input {
+  color: #333;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__explore-option {
+  z-index: 2;
+  position: relative;
+}
+
+.srp-module__NFOD0W__destination-dropdown {
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  padding: 16px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+.srp-module__NFOD0W__search-placeholder {
+  text-align: center;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.srp-module__NFOD0W__search-placeholder img {
+  margin: 0 auto 8px;
+  display: block;
+}
+
+.srp-module__NFOD0W__popular-searches h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__popular-searches ul {
+  padding: 0;
+  list-style: none;
+}
+
+.srp-module__NFOD0W__popular-searches li {
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__popular-searches li:hover {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.srp-module__NFOD0W__suggestion-item {
+  cursor: pointer;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__suggestion-item:hover {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.srp-module__NFOD0W__suggestion-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__suggestion-desc {
+  color: #666;
+  font-size: 12px;
+}
+
+.srp-module__NFOD0W__dropdownBox {
+  z-index: 10;
+  background: #fff;
+  border-radius: 12px;
+  width: 330px;
+  padding: 20px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  box-shadow: 0 8px 24px #00000026;
+}
+
+.srp-module__NFOD0W__roomLabel {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__counterRow {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__counter {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__counter button {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+.srp-module__NFOD0W__ageSelectors {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.srp-module__NFOD0W__ageSelectors select {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80px;
+  padding: 4px;
+}
+
+.srp-module__NFOD0W__addRoomBtn {
+  color: #0560fb;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.srp-module__NFOD0W__doneBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0560fb;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.srp-module__NFOD0W__explore-rooms-guests {
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  width: 330px;
+  height: 48px;
+  padding: 11px 12px;
+  display: flex;
+  position: relative;
+}
+
+.srp-module__NFOD0W__room-guest-wrapper {
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.srp-module__NFOD0W__room-guest-input {
+  color: #000;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.srp-module__NFOD0W__roomBlock {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.srp-module__NFOD0W__ageSelector {
+  flex-direction: column;
+  display: flex;
+}
+
+@media (width <= 1024px) {
+  .srp-module__NFOD0W__search-property-container {
+    flex-direction: column;
+  }
+
+  .srp-module__NFOD0W__search-property-window {
+    width: 100%;
+  }
+
+  .srp-module__NFOD0W__advance-search-wrapper {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .srp-module__NFOD0W__advance-search-option {
+    border-bottom: 1px solid #e2e8f0;
+    border-right: none;
+  }
+
+  .srp-module__NFOD0W__advance-search-option:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (width <= 768px) {
+  .srp-module__NFOD0W__search-property-result-card {
+    flex-direction: column;
+  }
+
+  .srp-module__NFOD0W__search-property-result-card--banner {
+    width: 100%;
+    height: 200px;
+  }
+
+  .srp-module__NFOD0W__search-property-result-card--price {
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+    border-left: none;
+    width: 100%;
+  }
+
+  .srp-module__NFOD0W__hotel-card--features-one, .srp-module__NFOD0W__hotel-card--features-three {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .srp-module__NFOD0W__hotel-card--features-one .srp-module__NFOD0W__icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .srp-module__NFOD0W__search-property-result--filter {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .srp-module__NFOD0W__search-property-result--filter-wrapper ul {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+@media (width <= 480px) {
+  .srp-module__NFOD0W__container {
+    margin: 0;
+  }
+
+  .srp-module__NFOD0W__advance-search, .srp-module__NFOD0W__search-property-container, .srp-module__NFOD0W__search-property-window-container, .srp-module__NFOD0W__search-property-result-card--content, .srp-module__NFOD0W__search-property-result-card--price {
+    padding: 16px;
+  }
+
+  .srp-module__NFOD0W__hotel-card--title {
+    font-size: 16px;
+  }
+
+  .srp-module__NFOD0W__search-property-price--top span:last-of-type {
+    font-size: 18px;
+  }
+}
+
+
+/* [project]/styles/PriceRangeSlider.module.css [app-client] (css) */
+.PriceRangeSlider-module__w6-UKW__sliderContainer {
+  width: 100%;
+  padding: 10px 0;
+  position: relative;
+}
+
+.PriceRangeSlider-module__w6-UKW__sliderTrack {
+  background-color: #ccc;
+  border-radius: 2px;
+  height: 4px;
+  position: relative;
+}
+
+.PriceRangeSlider-module__w6-UKW__sliderRange {
+  background-color: #0070f3;
+  border-radius: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.PriceRangeSlider-module__w6-UKW__thumb {
+  pointer-events: none;
+  background: #0070f3;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -6px;
+}
+
+.PriceRangeSlider-module__w6-UKW__thumbLeft {
+  z-index: 3;
+  pointer-events: auto;
+}
+
+.PriceRangeSlider-module__w6-UKW__thumbRight {
+  z-index: 2;
+  pointer-events: auto;
+}
+
+.PriceRangeSlider-module__w6-UKW__sliderContainer input[type="range"] {
+  -webkit-appearance: none;
+  pointer-events: none;
+  background: none;
+  width: 100%;
+  height: 16px;
+  position: absolute;
+  top: -6px;
+}
+
+.PriceRangeSlider-module__w6-UKW__sliderContainer input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 3;
+  background: #0070f3;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+.PriceRangeSlider-module__w6-UKW__priceLabels {
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 14px;
+  display: flex;
+}
+
+
+/* [project]/styles/home.module.css [app-client] (css) */
+.home-module__NoU7wq__banner-explore-content {
+  background-image: url("/images/banner-image.png");
+  background-size: cover;
+  gap: 100px;
+  width: 100%;
+  height: 539px;
+}
+
+.home-module__NoU7wq__login-register {
+  height: 39.33px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.home-module__NoU7wq__login-register a {
+  color: #036;
+  text-decoration: none;
+}
+
+.home-module__NoU7wq__logo {
+  height: 30px;
+}
+
+.home-module__NoU7wq__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-module__NoU7wq__banner-explore-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.home-module__NoU7wq__banner-explore-content-heading {
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 719px;
+  height: 147px;
+  display: flex;
+}
+
+.home-module__NoU7wq__banner-explore-content-heading .home-module__NoU7wq__explore-heading {
+  width: 719px;
+  height: 80px;
+}
+
+.home-module__NoU7wq__banner-explore-content-heading .home-module__NoU7wq__explore-heading h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.home-module__NoU7wq__banner-explore-content-heading .home-module__NoU7wq__explore-paragraph {
+  width: 532px;
+  height: 60px;
+}
+
+.home-module__NoU7wq__banner-explore-content-heading .home-module__NoU7wq__explore-paragraph p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.home-module__NoU7wq__banner-explore-content-filter {
+  border-start-end-radius: 16px;
+  border-end-end-radius: 16px;
+  background-color: #fff;
+  border-bottom-left-radius: 16px;
+  width: 1180px;
+  height: 160px;
+}
+
+.home-module__NoU7wq__explore-filter-foot {
+  padding: 32px;
+}
+
+.home-module__NoU7wq__banner-explore-content-filter .home-module__NoU7wq__explore-filter-head .home-module__NoU7wq__fi-head-hotel {
+  border-bottom: 3px solid #0560fb;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 142px;
+  height: 48px;
+  display: flex;
+}
+
+.home-module__NoU7wq__banner-explore-content-filter .home-module__NoU7wq__explore-filter-foot .home-module__NoU7wq__explore-filter-options {
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.home-module__NoU7wq__explore-filter-options .home-module__NoU7wq__explore-option {
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  width: 330px;
+  height: 48px;
+  padding: 11px 12px;
+  display: flex;
+  position: relative;
+}
+
+.home-module__NoU7wq__explore-filter-options .home-module__NoU7wq__explore-option input {
+  color: #333;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.home-module__NoU7wq__room-guest-input {
+  color: #333;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.home-module__NoU7wq__explore-filter-options .home-module__NoU7wq__explore-option-btn button {
+  background-color: #0560fb;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  width: 58px;
+  height: 48px;
+}
+
+.home-module__NoU7wq__book-services {
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.home-module__NoU7wq__book-services-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.home-module__NoU7wq__book-services-content-banner {
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.home-module__NoU7wq__book-services-content-banner img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  max-height: 180px;
+}
+
+.home-module__NoU7wq__book-services-content-banner h2 {
+  color: #fff;
+  text-shadow: 0 2px 5px #00000080;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-module__NoU7wq__custom-input {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 260px;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.home-module__NoU7wq__book-services-content-elements {
+  margin-top: 40px;
+}
+
+.home-module__NoU7wq__book-services-content-elements h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.home-module__NoU7wq__hotel-book-services-wrapper {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+
+.home-module__NoU7wq__hotel-book-services-card {
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  flex-direction: row;
+  flex: calc(33.333% - 40px);
+  align-items: flex-start;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 20px;
+  transition: transform .3s;
+  display: flex;
+  box-shadow: 0 4px 20px #0000000f;
+}
+
+.home-module__NoU7wq__hotel-book-services-card:hover {
+  transform: translateY(-5px);
+}
+
+.home-module__NoU7wq__hotel-book-icon {
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+
+.home-module__NoU7wq__hotel-book-icon img {
+  width: 36px;
+  height: 36px;
+}
+
+.home-module__NoU7wq__hotel-book-text h3 {
+  color: #1a1a1a;
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.home-module__NoU7wq__hotel-book-text p {
+  color: #555;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.home-module__NoU7wq__footer {
+  text-align: center;
+  color: #ccc;
+  background-color: #1a1a1a;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.home-module__NoU7wq__footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.home-module__NoU7wq__explore-option {
+  z-index: 2;
+  position: relative;
+}
+
+.home-module__NoU7wq__destination-dropdown {
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  padding: 16px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+.home-module__NoU7wq__search-placeholder {
+  text-align: center;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.home-module__NoU7wq__search-placeholder img {
+  margin: 0 auto 8px;
+  display: block;
+}
+
+.home-module__NoU7wq__popular-searches h4 {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.home-module__NoU7wq__popular-searches ul {
+  padding: 0;
+  list-style: none;
+}
+
+.home-module__NoU7wq__popular-searches li {
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+.home-module__NoU7wq__popular-searches li:hover {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.home-module__NoU7wq__suggestion-item {
+  cursor: pointer;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px;
+  display: flex;
+}
+
+.home-module__NoU7wq__suggestion-item:hover {
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.home-module__NoU7wq__suggestion-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home-module__NoU7wq__suggestion-desc {
+  color: #666;
+  font-size: 12px;
+}
+
+.home-module__NoU7wq__dropdownBox {
+  z-index: 10;
+  background: #fff;
+  border-radius: 12px;
+  width: 330px;
+  padding: 20px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  box-shadow: 0 8px 24px #00000026;
+}
+
+.home-module__NoU7wq__roomLabel {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.home-module__NoU7wq__counterRow {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.home-module__NoU7wq__counter {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.home-module__NoU7wq__counter button {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+.home-module__NoU7wq__ageSelectors {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.home-module__NoU7wq__ageSelectors select {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80px;
+  padding: 4px;
+}
+
+.home-module__NoU7wq__addRoomBtn {
+  color: #0560fb;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-top: 16px;
+  font-weight: 500;
+}
+
+.home-module__NoU7wq__doneBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0560fb;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.home-module__NoU7wq__explore-rooms-guests {
+  cursor: pointer;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  width: 330px;
+  height: 48px;
+  padding: 11px 12px;
+  display: flex;
+  position: relative;
+}
+
+.home-module__NoU7wq__room-guest-wrapper {
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+}
+
+.home-module__NoU7wq__room-guest-input {
+  color: #000;
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.home-module__NoU7wq__roomBlock {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.home-module__NoU7wq__ageSelector {
+  flex-direction: column;
+  display: flex;
+}
+
+
+/* [project]/node_modules/react-datepicker/dist/react-datepicker.css [app-client] (css) */
+.react-datepicker__navigation-icon:before, .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow {
+  content: "";
+  border: 3px solid #ccc;
+  border-width: 3px 3px 0 0;
+  width: 9px;
+  height: 9px;
+  display: block;
+  position: absolute;
+  top: 6px;
+}
+
+.react-datepicker-wrapper {
+  border: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.react-datepicker {
+  color: #000;
+  font-family: Helvetica Neue, helvetica, arial, sans-serif;
+  font-size: .8rem;
+  line-height: initial;
+  background-color: #fff;
+  border: 1px solid #aeaeae;
+  border-radius: .3rem;
+  display: inline-block;
+  position: relative;
+}
+
+.react-datepicker--time-only .react-datepicker__time-container {
+  border-left: 0;
+}
+
+.react-datepicker--time-only .react-datepicker__time, .react-datepicker--time-only .react-datepicker__time-box {
+  border-bottom-right-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+.react-datepicker-popper {
+  z-index: 1;
+  line-height: 0;
+}
+
+.react-datepicker-popper .react-datepicker__triangle {
+  stroke: #aeaeae;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
+  fill: #f0f0f0;
+  color: #f0f0f0;
+}
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle {
+  fill: #fff;
+  color: #fff;
+}
+
+.react-datepicker__header {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: .3rem;
+  padding: 8px 0;
+  position: relative;
+}
+
+.react-datepicker__header--time {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.react-datepicker__header--time:not(.react-datepicker__header--time--only) {
+  border-top-left-radius: 0;
+}
+
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  border-top-right-radius: .3rem;
+}
+
+.react-datepicker__year-dropdown-container--select, .react-datepicker__month-dropdown-container--select, .react-datepicker__month-year-dropdown-container--select, .react-datepicker__year-dropdown-container--scroll, .react-datepicker__month-dropdown-container--scroll, .react-datepicker__month-year-dropdown-container--scroll {
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+  color: #000;
+  margin-top: 0;
+  font-size: .944rem;
+  font-weight: bold;
+}
+
+h2.react-datepicker__current-month {
+  margin: 0;
+  padding: 0;
+}
+
+.react-datepicker-time__header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.react-datepicker__navigation {
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+  text-indent: -999em;
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 2px;
+  overflow: hidden;
+}
+
+.react-datepicker__navigation--previous {
+  left: 2px;
+}
+
+.react-datepicker__navigation--next {
+  right: 2px;
+}
+
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 85px;
+}
+
+.react-datepicker__navigation--years {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: 0;
+}
+
+.react-datepicker__navigation--years-previous {
+  top: 4px;
+}
+
+.react-datepicker__navigation--years-upcoming {
+  top: -4px;
+}
+
+.react-datepicker__navigation:hover :before {
+  border-color: #a6a6a6;
+}
+
+.react-datepicker__navigation-icon {
+  width: 0;
+  font-size: 20px;
+  position: relative;
+  top: -1px;
+}
+
+.react-datepicker__navigation-icon--next {
+  left: -2px;
+}
+
+.react-datepicker__navigation-icon--next:before {
+  left: -7px;
+  transform: rotate(45deg);
+}
+
+.react-datepicker__navigation-icon--previous {
+  right: -2px;
+}
+
+.react-datepicker__navigation-icon--previous:before {
+  right: -7px;
+  transform: rotate(225deg);
+}
+
+.react-datepicker__month-container {
+  float: left;
+}
+
+.react-datepicker__year {
+  text-align: center;
+  margin: .4rem;
+}
+
+.react-datepicker__year-wrapper {
+  flex-wrap: wrap;
+  max-width: 180px;
+  display: flex;
+}
+
+.react-datepicker__year .react-datepicker__year-text {
+  width: 4rem;
+  margin: 2px;
+  display: inline-block;
+}
+
+.react-datepicker__month {
+  text-align: center;
+  margin: .4rem;
+}
+
+.react-datepicker__month .react-datepicker__month-text, .react-datepicker__month .react-datepicker__quarter-text {
+  width: 4rem;
+  margin: 2px;
+  display: inline-block;
+}
+
+.react-datepicker__input-time-container {
+  clear: both;
+  float: left;
+  text-align: left;
+  width: 100%;
+  margin: 5px 0 10px 15px;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__caption, .react-datepicker__input-time-container .react-datepicker-time__input-container {
+  display: inline-block;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input {
+  width: auto;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type="time"]::-webkit-inner-spin-button, .react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type="time"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type="time"] {
+  -moz-appearance: textfield;
+}
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__delimiter {
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.react-datepicker__time-container {
+  float: right;
+  border-left: 1px solid #aeaeae;
+  width: 85px;
+}
+
+.react-datepicker__time-container--with-today-button {
+  border: 1px solid #aeaeae;
+  border-radius: .3rem;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: -87px;
+}
+
+.react-datepicker__time-container .react-datepicker__time {
+  background: #fff;
+  border-bottom-right-radius: .3rem;
+  position: relative;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  text-align: center;
+  border-bottom-right-radius: .3rem;
+  width: 85px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  box-sizing: content-box;
+  width: 100%;
+  height: calc(195px + .85rem);
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+  white-space: nowrap;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  color: #fff;
+  background-color: #216ba5;
+  font-weight: bold;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+  background-color: #216ba5;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled {
+  color: #ccc;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled:hover {
+  cursor: default;
+  background-color: #0000;
+}
+
+.react-datepicker__week-number {
+  color: #ccc;
+  text-align: center;
+  width: 1.7rem;
+  margin: .166rem;
+  line-height: 1.7rem;
+  display: inline-block;
+}
+
+.react-datepicker__week-number.react-datepicker__week-number--clickable {
+  cursor: pointer;
+}
+
+.react-datepicker__week-number.react-datepicker__week-number--clickable:not(.react-datepicker__week-number--selected):hover {
+  background-color: #f0f0f0;
+  border-radius: .3rem;
+}
+
+.react-datepicker__week-number--selected {
+  color: #fff;
+  background-color: #216ba5;
+  border-radius: .3rem;
+}
+
+.react-datepicker__week-number--selected:hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker__day-names {
+  white-space: nowrap;
+  margin-bottom: -8px;
+}
+
+.react-datepicker__week {
+  white-space: nowrap;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  color: #000;
+  text-align: center;
+  width: 1.7rem;
+  margin: .166rem;
+  line-height: 1.7rem;
+  display: inline-block;
+}
+
+.react-datepicker__day, .react-datepicker__month-text, .react-datepicker__quarter-text, .react-datepicker__year-text {
+  cursor: pointer;
+}
+
+.react-datepicker__day:not([aria-disabled="true"]):hover, .react-datepicker__month-text:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text:not([aria-disabled="true"]):hover, .react-datepicker__year-text:not([aria-disabled="true"]):hover {
+  background-color: #f0f0f0;
+  border-radius: .3rem;
+}
+
+.react-datepicker__day--today, .react-datepicker__month-text--today, .react-datepicker__quarter-text--today, .react-datepicker__year-text--today {
+  font-weight: bold;
+}
+
+.react-datepicker__day--highlighted, .react-datepicker__month-text--highlighted, .react-datepicker__quarter-text--highlighted, .react-datepicker__year-text--highlighted {
+  color: #fff;
+  background-color: #3dcc4a;
+  border-radius: .3rem;
+}
+
+.react-datepicker__day--highlighted:not([aria-disabled="true"]):hover, .react-datepicker__month-text--highlighted:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text--highlighted:not([aria-disabled="true"]):hover, .react-datepicker__year-text--highlighted:not([aria-disabled="true"]):hover {
+  background-color: #32be3f;
+}
+
+.react-datepicker__day--highlighted-custom-1, .react-datepicker__month-text--highlighted-custom-1, .react-datepicker__quarter-text--highlighted-custom-1, .react-datepicker__year-text--highlighted-custom-1 {
+  color: #f0f;
+}
+
+.react-datepicker__day--highlighted-custom-2, .react-datepicker__month-text--highlighted-custom-2, .react-datepicker__quarter-text--highlighted-custom-2, .react-datepicker__year-text--highlighted-custom-2 {
+  color: green;
+}
+
+.react-datepicker__day--holidays, .react-datepicker__month-text--holidays, .react-datepicker__quarter-text--holidays, .react-datepicker__year-text--holidays {
+  color: #fff;
+  background-color: #ff6803;
+  border-radius: .3rem;
+  position: relative;
+}
+
+.react-datepicker__day--holidays .overlay, .react-datepicker__month-text--holidays .overlay, .react-datepicker__quarter-text--holidays .overlay, .react-datepicker__year-text--holidays .overlay {
+  color: #fff;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #333;
+  border-radius: 4px;
+  padding: 4px;
+  transition: visibility, opacity .3s ease-in-out;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.react-datepicker__day--holidays:not([aria-disabled="true"]):hover, .react-datepicker__month-text--holidays:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text--holidays:not([aria-disabled="true"]):hover, .react-datepicker__year-text--holidays:not([aria-disabled="true"]):hover {
+  background-color: #cf5300;
+}
+
+.react-datepicker__day--holidays:hover .overlay, .react-datepicker__month-text--holidays:hover .overlay, .react-datepicker__quarter-text--holidays:hover .overlay, .react-datepicker__year-text--holidays:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+  color: #fff;
+  background-color: #216ba5;
+  border-radius: .3rem;
+}
+
+.react-datepicker__day--selected:not([aria-disabled="true"]):hover, .react-datepicker__day--in-selecting-range:not([aria-disabled="true"]):hover, .react-datepicker__day--in-range:not([aria-disabled="true"]):hover, .react-datepicker__month-text--selected:not([aria-disabled="true"]):hover, .react-datepicker__month-text--in-selecting-range:not([aria-disabled="true"]):hover, .react-datepicker__month-text--in-range:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text--selected:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text--in-selecting-range:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text--in-range:not([aria-disabled="true"]):hover, .react-datepicker__year-text--selected:not([aria-disabled="true"]):hover, .react-datepicker__year-text--in-selecting-range:not([aria-disabled="true"]):hover, .react-datepicker__year-text--in-range:not([aria-disabled="true"]):hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected {
+  color: #000;
+  background-color: #bad9f1;
+  border-radius: .3rem;
+}
+
+.react-datepicker__day--keyboard-selected:not([aria-disabled="true"]):hover, .react-datepicker__month-text--keyboard-selected:not([aria-disabled="true"]):hover, .react-datepicker__quarter-text--keyboard-selected:not([aria-disabled="true"]):hover, .react-datepicker__year-text--keyboard-selected:not([aria-disabled="true"]):hover {
+  background-color: #1d5d90;
+}
+
+.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range), .react-datepicker__month-text--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range), .react-datepicker__quarter-text--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range), .react-datepicker__year-text--in-selecting-range:not(.react-datepicker__day--in-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--in-range) {
+  background-color: #216ba580;
+}
+
+.react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__year--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__month--selecting-range .react-datepicker__month-text--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__year--selecting-range .react-datepicker__month-text--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__month--selecting-range .react-datepicker__quarter-text--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__year--selecting-range .react-datepicker__quarter-text--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__month--selecting-range .react-datepicker__year-text--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range), .react-datepicker__year--selecting-range .react-datepicker__year-text--in-range:not(.react-datepicker__day--in-selecting-range, .react-datepicker__month-text--in-selecting-range, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__year-text--in-selecting-range) {
+  color: #000;
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__day--disabled, .react-datepicker__month-text--disabled, .react-datepicker__quarter-text--disabled, .react-datepicker__year-text--disabled {
+  cursor: default;
+  color: #ccc;
+}
+
+.react-datepicker__day--disabled .overlay, .react-datepicker__month-text--disabled .overlay, .react-datepicker__quarter-text--disabled .overlay, .react-datepicker__year-text--disabled .overlay {
+  color: #fff;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #333;
+  border-radius: 4px;
+  padding: 4px;
+  transition: visibility, opacity .3s ease-in-out;
+  position: absolute;
+  bottom: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.react-datepicker__input-container .react-datepicker__calendar-icon {
+  box-sizing: content-box;
+  padding: .5rem;
+  position: absolute;
+}
+
+.react-datepicker__view-calendar-icon input {
+  padding: 6px 10px 5px 25px;
+}
+
+.react-datepicker__year-read-view, .react-datepicker__month-read-view, .react-datepicker__month-year-read-view {
+  border: 1px solid #0000;
+  border-radius: .3rem;
+  position: relative;
+}
+
+.react-datepicker__year-read-view:hover, .react-datepicker__month-read-view:hover, .react-datepicker__month-year-read-view:hover {
+  cursor: pointer;
+}
+
+.react-datepicker__year-read-view:hover .react-datepicker__year-read-view--down-arrow, .react-datepicker__year-read-view:hover .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-read-view:hover .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view:hover .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view:hover .react-datepicker__year-read-view--down-arrow, .react-datepicker__month-year-read-view:hover .react-datepicker__month-read-view--down-arrow {
+  border-top-color: #b3b3b3;
+}
+
+.react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow {
+  top: 0;
+  right: -16px;
+  transform: rotate(135deg);
+}
+
+.react-datepicker__year-dropdown, .react-datepicker__month-dropdown, .react-datepicker__month-year-dropdown {
+  z-index: 1;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #aeaeae;
+  border-radius: .3rem;
+  width: 50%;
+  position: absolute;
+  top: 30px;
+  left: 25%;
+}
+
+.react-datepicker__year-dropdown:hover, .react-datepicker__month-dropdown:hover, .react-datepicker__month-year-dropdown:hover {
+  cursor: pointer;
+}
+
+.react-datepicker__year-dropdown--scrollable, .react-datepicker__month-dropdown--scrollable, .react-datepicker__month-year-dropdown--scrollable {
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.react-datepicker__year-option, .react-datepicker__month-option, .react-datepicker__month-year-option {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+  display: block;
+}
+
+.react-datepicker__year-option:first-of-type, .react-datepicker__month-option:first-of-type, .react-datepicker__month-year-option:first-of-type {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+
+.react-datepicker__year-option:last-of-type, .react-datepicker__month-option:last-of-type, .react-datepicker__month-year-option:last-of-type {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom-right-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+}
+
+.react-datepicker__year-option:hover, .react-datepicker__month-option:hover, .react-datepicker__month-year-option:hover {
+  background-color: #ccc;
+}
+
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-upcoming, .react-datepicker__month-option:hover .react-datepicker__navigation--years-upcoming, .react-datepicker__month-year-option:hover .react-datepicker__navigation--years-upcoming {
+  border-bottom-color: #b3b3b3;
+}
+
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-previous, .react-datepicker__month-option:hover .react-datepicker__navigation--years-previous, .react-datepicker__month-year-option:hover .react-datepicker__navigation--years-previous {
+  border-top-color: #b3b3b3;
+}
+
+.react-datepicker__year-option--selected, .react-datepicker__month-option--selected, .react-datepicker__month-year-option--selected {
+  position: absolute;
+  left: 15px;
+}
+
+.react-datepicker__close-icon {
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: #0000;
+  border: 0;
+  outline: 0;
+  height: 100%;
+  padding: 0 6px 0 0;
+  display: table-cell;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.react-datepicker__close-icon:after {
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  content: "×";
+  background-color: #216ba5;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1;
+  display: table-cell;
+}
+
+.react-datepicker__close-icon--disabled {
+  cursor: default;
+}
+
+.react-datepicker__close-icon--disabled:after {
+  cursor: default;
+  background-color: #ccc;
+}
+
+.react-datepicker__today-button {
+  cursor: pointer;
+  text-align: center;
+  clear: left;
+  background: #f0f0f0;
+  border-top: 1px solid #aeaeae;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.react-datepicker__portal {
+  z-index: 2147483647;
+  background-color: #000c;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.react-datepicker__portal .react-datepicker__day-name, .react-datepicker__portal .react-datepicker__day, .react-datepicker__portal .react-datepicker__time-name {
+  width: 3rem;
+  line-height: 3rem;
+}
+
+@media (width <= 400px), (height <= 550px) {
+  .react-datepicker__portal .react-datepicker__day-name, .react-datepicker__portal .react-datepicker__day, .react-datepicker__portal .react-datepicker__time-name {
+    width: 2rem;
+    line-height: 2rem;
+  }
+}
+
+.react-datepicker__portal .react-datepicker__current-month, .react-datepicker__portal .react-datepicker-time__header {
+  font-size: 1.44rem;
+}
+
+.react-datepicker__children-container {
+  width: 13.8rem;
+  height: auto;
+  margin: .4rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+.react-datepicker__aria-live {
+  clip-path: circle(0);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.react-datepicker__calendar-icon {
+  vertical-align: -.125em;
+  width: 1em;
+  height: 1em;
+}
+
+
+/* [project]/styles/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inter, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 130px;
+  display: flex;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  display: flex;
+}
+
+.header__logo img {
+  height: 32px;
+}
+
+.header__user-dropdown select {
+  color: #64748b;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.header__user-dropdown select:hover {
+  background-color: #f1f5f9;
+}
+
+header .login-register, .sign-up {
+  line-height: 40px;
+}
+
+.footer {
+  color: #9ca3af;
+  text-align: center;
+  background: #1f2937;
+  padding: 25px;
+  font-size: 14px;
+}
+
+.footer__text, .footer p {
+  margin: 0;
+}
+
+.custom-input {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.react-datepicker {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  min-width: 600px;
+  font-family: Segoe UI, sans-serif;
+  box-shadow: 0 0 10px #0000000d;
+  flex-direction: row !important;
+  display: flex !important;
+}
+
+.react-datepicker__month-container {
+  width: 50%;
+}
+
+.react-datepicker__current-month, .react-datepicker__navigation-icon {
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.react-datepicker__navigation {
+  top: 20px;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  border-radius: 50%;
+  width: 36px;
+  margin: 2px;
+  font-size: 14px;
+  line-height: 36px;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--keyboard-selected {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range {
+  color: #0052cc;
+  background-color: #e5f0ff;
+}
+
+.react-datepicker__day:hover {
+  background-color: #d6e9ff;
+}
+
+.react-datepicker__day--disabled {
+  color: #ccc;
+}
+
+.react-datepicker__time-container {
+  display: none;
+}
+
+
+/*# sourceMappingURL=_bdd61091._.css.map*/
