@@ -1,0 +1,643 @@
+/* [project]/styles/review.module.css [app-client] (css) */
+.review-module__reMzaa__booking {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.review-module__reMzaa__booking__timer {
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  display: flex;
+}
+
+.review-module__reMzaa__booking__timer-icon {
+  color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  display: flex;
+}
+
+.review-module__reMzaa__booking__timer-text {
+  color: #4e4e4e;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__booking__timer-time {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__booking__content {
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  display: grid;
+}
+
+.review-module__reMzaa__booking__main {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.review-module__reMzaa__booking__sidebar {
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.review-module__reMzaa__review {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.review-module__reMzaa__review__header {
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.review-module__reMzaa__booking-nav ul {
+  color: #54627b;
+  gap: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+.review-module__reMzaa__review__step {
+  color: #fff;
+  background: #007bff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+}
+
+.review-module__reMzaa__review__title {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__review__refund {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__review__refund-time {
+  color: #999;
+}
+
+.review-module__reMzaa__review__hotel {
+  gap: 16px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__image {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 250px;
+  height: 266px;
+}
+
+.review-module__reMzaa__review__details {
+  flex: 1;
+}
+
+.review-module__reMzaa__review__hotel-name {
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__review__stars {
+  color: #ffc107;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__review__address {
+  color: #666;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__review__room-type {
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__review__view {
+  color: #666;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__review__features {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__feature {
+  color: #28a745;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__feature:before {
+  content: "✓";
+  color: #28a745;
+}
+
+.review-module__reMzaa__review__cancellation {
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 12px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.review-module__reMzaa__review__dates {
+  gap: 16px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__date {
+  color: #666;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__review__stay, .review-module__reMzaa__review__guests {
+  color: #666;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__review__room-specs {
+  gap: 16px;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__spec {
+  color: #666;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__amenities {
+  color: #007bff;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.review-module__reMzaa__review__rating {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.review-module__reMzaa__review__score {
+  color: #fff;
+  background: #28a745;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__review__rating-text {
+  color: #666;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__guest-details {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.review-module__reMzaa__guest-details__header {
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.review-module__reMzaa__guest-details__step {
+  color: #fff;
+  background: #007bff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+}
+
+.review-module__reMzaa__guest-details__title {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__guest-details__warning {
+  border-radius: 8px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 12px;
+  display: flex;
+}
+
+.review-module__reMzaa__guest-details__warning-icon {
+  color: #856404;
+}
+
+.review-module__reMzaa__guest-details__warning-text {
+  color: #212121;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__guest-details__rooms {
+  text-align: right;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__guest-details__room {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.review-module__reMzaa__guest-details__room-title {
+  color: #333;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__guest-details__form {
+  grid-template-columns: auto 1fr 1fr;
+  align-items: end;
+  gap: 12px;
+  margin-bottom: 16px;
+  display: grid;
+}
+
+.review-module__reMzaa__guest-details__select {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__guest-details__input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__guest-details__input::placeholder {
+  color: #999;
+}
+
+.review-module__reMzaa__guest-details__email-phone {
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+  display: grid;
+}
+
+.review-module__reMzaa__guest-details__phone-prefix {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__guest-details__pan {
+  margin-bottom: 16px;
+}
+
+.review-module__reMzaa__guest-details__checkbox {
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.review-module__reMzaa__guest-details__checkbox input {
+  margin: 0;
+}
+
+.review-module__reMzaa__guest-details__checkbox-label {
+  color: #666;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__special-requests {
+  margin-top: 20px;
+}
+
+.review-module__reMzaa__special-requests__title {
+  color: #333;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__special-requests__options {
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.review-module__reMzaa__special-requests__option {
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.review-module__reMzaa__special-requests__option input {
+  margin: 0;
+}
+
+.review-module__reMzaa__special-requests__option-label {
+  color: #036;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__special-requests__textarea {
+  resize: vertical;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  min-height: 80px;
+  margin-bottom: 12px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__special-requests__note {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 11px;
+}
+
+.review-module__reMzaa__special-requests__continue {
+  color: #fff;
+  cursor: pointer;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  width: 30%;
+  margin: 0 auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__important-info {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.review-module__reMzaa__important-info__header {
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.review-module__reMzaa__important-info__step {
+  color: #fff;
+  background: #007bff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+}
+
+.review-module__reMzaa__important-info__title {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__important-info__text {
+  color: #666;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__important-info__times {
+  gap: 40px;
+  display: flex;
+}
+
+.review-module__reMzaa__important-info__time {
+  flex-direction: column;
+  display: flex;
+}
+
+.review-module__reMzaa__important-info__time-label {
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__important-info__time-value {
+  color: #666;
+  font-size: 12px;
+}
+
+.review-module__reMzaa__important-info__duration {
+  color: #999;
+  margin-top: 8px;
+  font-size: 11px;
+}
+
+.review-module__reMzaa__price-summary {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 24px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.review-module__reMzaa__price-summary__title {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__price-summary__item {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.review-module__reMzaa__price-summary__label {
+  color: #666;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__price-summary__value {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.review-module__reMzaa__price-summary__total {
+  border-top: 1px solid #eee;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.review-module__reMzaa__price-summary__total .review-module__reMzaa__price-summary__label {
+  color: #333;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__price-summary__total .review-module__reMzaa__price-summary__value {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.review-module__reMzaa__price-summary__note {
+  color: #666;
+  margin: 16px 0;
+  font-size: 11px;
+}
+
+.review-module__reMzaa__price-summary__tax-notice {
+  color: #666;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 30px;
+  font-size: 11px;
+}
+
+.review-module__reMzaa__price-summary__terms {
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.review-module__reMzaa__price-summary__terms input {
+  margin-top: 2px;
+}
+
+.review-module__reMzaa__price-summary__terms-text {
+  color: #666;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.review-module__reMzaa__price-summary__terms-link {
+  color: #036;
+  text-decoration: none;
+}
+
+.review-module__reMzaa__price-summary__book {
+  color: #fff;
+  cursor: pointer;
+  background: #036;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__assistance {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.review-module__reMzaa__assistance__title {
+  color: #212121;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.review-module__reMzaa__assistance__contact {
+  color: #212121;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.review-module__reMzaa__assistance__phone {
+  color: #212121;
+  font-size: 14px;
+}
+
+@media (width <= 768px) {
+  .review-module__reMzaa__booking__content, .review-module__reMzaa__guest-details__form, .review-module__reMzaa__guest-details__email-phone {
+    grid-template-columns: 1fr;
+  }
+
+  .review-module__reMzaa__important-info__times {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+
+/*# sourceMappingURL=styles_review_module_ee84c772.css.map*/

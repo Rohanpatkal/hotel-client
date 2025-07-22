@@ -304,6 +304,121 @@ exports.getHotelList = async (query, sort = 'recommended', filters = {}) => {
     }
 };
 
+<<<<<<< HEAD
+=======
+exports.getHotelDetails = async (propertyId) => {
+    try {
+        // 1. Basic Property Info
+        const [propertyRows] = await db.query(`
+            SELECT 
+                p.property_id,
+                p.property_name,
+                p.property_type,
+                p.base_currency,
+                p.star_category,
+                p.description,
+                p.usp,
+                p.address,
+                p.zip_code,
+                p.latitude,
+                p.longitude,
+                p.checkin_time,
+                p.checkout_time,
+                p.commission,
+                p.channel_manager,
+                c.city_name AS city,
+                s.state_name AS state,
+                co.country_name AS country,
+                ch.chain_name AS chain
+            FROM property p
+            LEFT JOIN city c ON p.city_id = c.city_id
+            LEFT JOIN state s ON p.state_id = s.state_id
+            LEFT JOIN country co ON p.country_id = co.country_id
+            LEFT JOIN chain ch ON p.chain_id = ch.chain_id
+            WHERE p.property_id = ?
+            LIMIT 1;
+        `, [propertyId]);
+
+        if (propertyRows.length === 0) return null;
+
+        const property = propertyRows[0];
+
+        // 2. Property Amenities
+        const [amenities] = await db.query(`
+            SELECT a.amenity_name AS name
+            FROM property_amenities pa
+            JOIN amenities a ON pa.amenity_id = a.amenity_id
+            WHERE pa.property_id = ?;
+        `, [propertyId]);
+
+        // 3. Property Facilities
+        const [facilities] = await db.query(`
+            SELECT f.facility_name AS name
+            FROM property_facilities pf
+            JOIN facility f ON pf.facility_id = f.facility_id
+            WHERE pf.property_id = ?;
+        `, [propertyId]);
+
+        // 4. Property Photos
+        const [photos] = await db.query(`
+            SELECT label, image_name, image_path
+            FROM property_photos
+            WHERE property_id = ?;
+        `, [propertyId]);
+
+        // 5. Rooms with Room Amenities and Room Photos
+        const [rooms] = await db.query(`
+            SELECT 
+                r.id AS room_id,
+                r.room_type,
+                r.room_area,
+                r.size_unit,
+                r.room_description,
+                r.minimum_price,
+                r.old_price,
+                r.max_occupancy,
+                GROUP_CONCAT(DISTINCT a.amenity_name) AS amenities,
+                GROUP_CONCAT(DISTINCT rp.image_url) AS images
+            FROM room_details r
+            LEFT JOIN room_amenities_mapping ram ON r.id = ram.room_id
+            LEFT JOIN amenities a ON ram.amenity_id = a.amenity_id
+            LEFT JOIN room_photos rp ON r.id = rp.room_id
+            WHERE r.property_id = ?
+            GROUP BY r.id;
+        `, [propertyId]);
+
+        // 6. Rate Plans with Inclusions
+        const [ratePlans] = await db.query(`
+            SELECT 
+                rp.id AS rate_plan_id,
+                rp.rate_name,
+                rp.booking_type,
+                rp.base_price,
+                rp.total_price,
+                rp.max_occupancy,
+                GROUP_CONCAT(i.inclusion_name) AS inclusions
+            FROM rate_plans rp
+            LEFT JOIN rate_plan_inclusions rpi ON rp.id = rpi.rate_plan_id
+            LEFT JOIN inclusion i ON rpi.inclusion_id = i.inclusion_id
+            WHERE rp.property_id = ?
+            GROUP BY rp.id;
+        `, [propertyId]);
+
+        return {
+            property,
+            amenities,
+            facilities,
+            photos,
+            rooms,
+            ratePlans
+        };
+    } catch (err) {
+        throw err;
+    }
+};
+
+
+>>>>>>> 44fda61e (vernost client hotel project)
 exports.getSearchSuggestions = async (query) => {
     try {
         const [hotels] = await db.query(`
