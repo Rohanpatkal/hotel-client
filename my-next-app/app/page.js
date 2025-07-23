@@ -11,6 +11,7 @@ import RoomGuestSelector from "@/components/roomsGuestPicker";
 import SearchBox from "@/components/searchBox";
 import DateSelector from "@/components/dateSelector";
 import NavBar from "@/components/navBar";
+import BookingConfirmation from "@/components/booking/bookingConfirmation";
 
 import { useRouter, useSearchParams } from 'next/navigation';
 import { formatISO } from 'date-fns';
@@ -177,6 +178,7 @@ export default function HomePage() {
       <footer className="footer" style={{marginTop:"20px"}}>
         <p>@2025 Vernost. All rights reserved. Privacy Policy | Terms & Conditions</p>
       </footer>
+      <BookingConfirmation/>
     </div>
   );
 }
