@@ -1,0 +1,660 @@
+/* [project]/styles/booking.module.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1e293b;
+  background-color: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.booking-module__eVpuwW__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.booking-module__eVpuwW__header {
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 16px 0;
+}
+
+.booking-module__eVpuwW__breadcrumb {
+  color: #64748b;
+  width: 100%;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__header-content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.booking-module__eVpuwW__page-title {
+  color: #111827;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.booking-module__eVpuwW__action-buttons {
+  gap: 12px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__btn {
+  cursor: pointer;
+  border-radius: 6px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all .2s;
+  display: flex;
+}
+
+.booking-module__eVpuwW__btn-outline {
+  color: #374151;
+  background: #fff;
+  border: 1px solid #d1d5db;
+}
+
+.booking-module__eVpuwW__btn-outline:hover {
+  background: #f9fafb;
+  border-color: #9ca3af;
+}
+
+.booking-module__eVpuwW__main {
+  padding: 32px 0;
+}
+
+.booking-module__eVpuwW__content-grid {
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  display: grid;
+}
+
+.booking-module__eVpuwW__main-content {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px #0000001a;
+}
+
+.booking-module__eVpuwW__section-title {
+  color: #111827;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.booking-module__eVpuwW__booking-confirmed {
+  text-align: left;
+}
+
+.booking-module__eVpuwW__success-header {
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__check-icon {
+  color: #16a34a;
+}
+
+.booking-module__eVpuwW__success-header h2 {
+  color: #16a34a;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.booking-module__eVpuwW__voucher-text {
+  color: #6b7280;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__booking-details {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  display: grid;
+}
+
+.booking-module__eVpuwW__detail-item {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__detail-label {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__detail-value {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-module__eVpuwW__hotel-info {
+  margin-bottom: 24px;
+}
+
+.booking-module__eVpuwW__hotel-name {
+  color: #111827;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.booking-module__eVpuwW__star-rating {
+  gap: 2px;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__star {
+  color: #fbbf24;
+  font-size: 16px;
+}
+
+.booking-module__eVpuwW__hotel-address {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__checkin-checkout {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+  padding: 24px 0;
+  display: grid;
+}
+
+.booking-module__eVpuwW__checkin, .booking-module__eVpuwW__checkout {
+  text-align: center;
+}
+
+.booking-module__eVpuwW__date-label {
+  color: #6b7280;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__date-value, .booking-module__eVpuwW__year {
+  color: #111827;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.booking-module__eVpuwW__time {
+  color: #6b7280;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.booking-module__eVpuwW__nights-indicator {
+  text-align: center;
+}
+
+.booking-module__eVpuwW__nights-text {
+  color: #6b7280;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__timeline {
+  width: 80px;
+  height: 2px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.booking-module__eVpuwW__timeline-line {
+  background: #d1d5db;
+  border-radius: 1px;
+  width: 100%;
+  height: 2px;
+}
+
+.booking-module__eVpuwW__timeline-dot {
+  background: #3b82f6;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: -3px;
+}
+
+.booking-module__eVpuwW__timeline-dot.booking-module__eVpuwW__start {
+  left: -4px;
+}
+
+.booking-module__eVpuwW__timeline-dot.booking-module__eVpuwW__end {
+  right: -4px;
+}
+
+.booking-module__eVpuwW__room-guest-info {
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+  display: grid;
+}
+
+.booking-module__eVpuwW__info-label {
+  color: #6b7280;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__info-value {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-module__eVpuwW__refundable-badge {
+  color: #16a34a;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+}
+
+.booking-module__eVpuwW__refundable-badge svg {
+  color: #16a34a;
+}
+
+.booking-module__eVpuwW__amenities-list {
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__amenity-item {
+  color: #374151;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__amenity-item svg {
+  color: #6b7280;
+}
+
+.booking-module__eVpuwW__view-all-btn {
+  color: #3b82f6;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.booking-module__eVpuwW__view-all-btn:hover {
+  color: #2563eb;
+}
+
+.booking-module__eVpuwW__cancellation-content {
+  margin-top: 16px;
+}
+
+.booking-module__eVpuwW__policy-header {
+  margin-bottom: 16px;
+}
+
+.booking-module__eVpuwW__policy-label, .booking-module__eVpuwW__refund-label {
+  color: #6b7280;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__refund-timeline {
+  margin-top: 16px;
+}
+
+.booking-module__eVpuwW__refund-amounts {
+  justify-content: space-between;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__amount {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-module__eVpuwW__timeline-container {
+  height: 8px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.booking-module__eVpuwW__timeline-track {
+  background: #e5e7eb;
+  border-radius: 4px;
+  width: 100%;
+  height: 8px;
+}
+
+.booking-module__eVpuwW__timeline-progress {
+  background: #3b82f6;
+  border-radius: 4px;
+  width: 75%;
+  height: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.booking-module__eVpuwW__timeline-point {
+  background: #fff;
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 1px;
+  transform: translateX(-50%);
+}
+
+.booking-module__eVpuwW__timeline-dates {
+  justify-content: space-between;
+  display: flex;
+}
+
+.booking-module__eVpuwW__date-item {
+  text-align: center;
+  font-size: 12px;
+}
+
+.booking-module__eVpuwW__date {
+  color: #111827;
+  margin-bottom: 2px;
+}
+
+.booking-module__eVpuwW__hours {
+  color: #6b7280;
+}
+
+.booking-module__eVpuwW__guest-rooms {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  display: grid;
+}
+
+.booking-module__eVpuwW__guest-room {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__room-label {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__guest-name {
+  color: #111827;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking-module__eVpuwW__guest-info {
+  margin-top: 8px;
+}
+
+.booking-module__eVpuwW__guest-label {
+  color: #6b7280;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__guest-count {
+  color: #111827;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__contact-info {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  display: grid;
+}
+
+.booking-module__eVpuwW__contact-item {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__contact-label {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__contact-value {
+  color: #111827;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__info-list {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__info-item {
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__bullet {
+  background: #6b7280;
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  margin-top: 8px;
+}
+
+.booking-module__eVpuwW__info-item p {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.booking-module__eVpuwW__sidebar {
+  height: fit-content;
+  position: sticky;
+  top: 24px;
+}
+
+.booking-module__eVpuwW__price-summary {
+  padding: 24px;
+}
+
+.booking-module__eVpuwW__price-items {
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__price-item {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.booking-module__eVpuwW__price-label {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.booking-module__eVpuwW__price-label-with-icon {
+  color: #6b7280;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__price-label-with-icon svg {
+  color: #9ca3af;
+}
+
+.booking-module__eVpuwW__price-value {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.booking-module__eVpuwW__price-divider {
+  background: #e5e7eb;
+  height: 1px;
+  margin: 16px 0;
+}
+
+.booking-module__eVpuwW__total-amount {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.booking-module__eVpuwW__total-label {
+  color: #111827;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.booking-module__eVpuwW__total-value {
+  color: #111827;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.booking-module__eVpuwW__payment-note {
+  color: #6b7280;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.booking-module__eVpuwW__tax-notice {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.booking-module__eVpuwW__tax-notice p {
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.booking-module__eVpuwW__footer {
+  color: #9ca3af;
+  text-align: center;
+  background: #1f2937;
+  margin-top: 48px;
+  padding: 16px 0;
+}
+
+.booking-module__eVpuwW__footer p {
+  font-size: 14px;
+}
+
+@media (width <= 1024px) {
+  .booking-module__eVpuwW__content-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .booking-module__eVpuwW__sidebar {
+    position: static;
+  }
+}
+
+@media (width <= 768px) {
+  .booking-module__eVpuwW__container {
+    padding: 0 16px;
+  }
+
+  .booking-module__eVpuwW__header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .booking-module__eVpuwW__action-buttons {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .booking-module__eVpuwW__checkin-checkout {
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .booking-module__eVpuwW__nights-indicator {
+    order: -1;
+  }
+
+  .booking-module__eVpuwW__booking-details, .booking-module__eVpuwW__room-guest-info, .booking-module__eVpuwW__guest-rooms, .booking-module__eVpuwW__contact-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (width <= 480px) {
+  .booking-module__eVpuwW__card {
+    padding: 16px;
+  }
+
+  .booking-module__eVpuwW__main {
+    padding: 16px 0;
+  }
+
+  .booking-module__eVpuwW__content-grid, .booking-module__eVpuwW__main-content {
+    gap: 16px;
+  }
+
+  .booking-module__eVpuwW__btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .booking-module__eVpuwW__page-title {
+    font-size: 18px;
+  }
+
+  .booking-module__eVpuwW__section-title {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=styles_booking_module_css_f9ee138c._.single.css.map*/
